@@ -10,7 +10,7 @@ task2-terraform/ -> environments/ -> prod/ -> ec2
 
 Then run terraform init && terraform apply.
 
-
+'''
 task2-terraform/
 |-> environments/
     |
@@ -44,8 +44,4 @@ task2-terraform/
     	|->gcp
        		|-> compute/
 
-
-
-
-
-
+'''
