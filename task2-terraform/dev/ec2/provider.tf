@@ -1,9 +1,9 @@
 provider "aws" {
-  alias="prod"
+  alias="dev"
   region = "eu-central-1"
   default_tags {
         tags = {
-            "env" = "prod"
+            "env" = "dev"
         }
    }
 }

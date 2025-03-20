@@ -2,7 +2,7 @@ module "ec2" {
   source = "../modules/services/aws/ec2"
 
   providers = {
-    aws = aws.prod
+    aws = aws.test
   }
   ec2_map = {
     "ubuntu" : {
